@@ -1,0 +1,9 @@
+ollama_url: http://localhost:11434
+ollama_model_name: "deepseek-r1:7b"
+top_k_results: 5
+embedding_model: all-MiniLM-L6-v2
+chunk_size: 512
+json_output_directory: ./json_output
+times_of_malta_storage: ./data/times_of_malta
+distilBERT_model: "distilbert-base-uncased-finetuned-sst-2-english"
+faiss_index_path: "faiss_index.dat"
