@@ -1,0 +1,12 @@
+embedding_model: all-MiniLM-L6-v2
+sentiment_model: distilbert-base-uncased-finetuned-sst-2-english
+ollama_url: http://localhost:11434
+ollama_model_name: deepseek-r1:7b
+corpus_dir: ../json_output
+artifacts_dir: ./artifacts/true_csv_vector_db
+index_file: faiss_index.bin
+metadata_file: chunk_metadata.json
+top_k_results: 5
+chunk_size_words: 120
+chunk_overlap_words: 30
+max_evidence_chars: 900
